@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>The Cheese Factory</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<!-- JavaScript HTML requirements -->
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="home">
+    <header data-role="header" data-theme="b">
+    	<h1>The<br>Cheese Factory</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="a" class="ui-btn-active">Home</a></li>
+			<li><a href="#products" data-icon="star" data-theme="a">Products</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="a">Join Our List</a></li>
+		</ul>
+		</div>
+    </header>
+
+ <section class="ui-content" role="main">
+ <h1>Welcome to My Newly Improved Website</h1>
+<h4>The Cheese Factory offers a variety of different foods to feed your hunger with substantially enough product for all our customer's needs. No matter the amount of meat you would like, we will prep your order and have it shipped to you in no time. We are well-known around our community because of our hard work, craftsmanship, quality, quantity, precision, and perfection. Stop in to one of our various locations!</h4><br>
+
+ <h3> Cheese of the Week</h3>
+ <figure>
+    <a href="#cheese"><img src="images/Unknown.jpg" alt="The Big Cheese" width="150"></a>
+            <figcaption><a href="#cheese">The Big Cheese</a></figcaption>
+</figure>
+<h2>My Guarentee</h2> 
+<h3>If you are not 100% satisfied with your order <strong>we will refund the entirety of your money back to you.</strong></h3>
+</section>
+
+ <footer data-role="footer" data-theme="b">
+        <h4>&copy; 2016</h4>
+    </footer>
+</div>
+
+    <div data-role="page" id="cheese">
+    <header data-role="header" data-theme="b">
+    	<h1>The<br>Cheese Factory</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="a">Home</a></li>
+			<li><a href="#products" data-icon="star" data-theme="a" class="ui-btn-active">Products</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="a">Join Our List</a></li>
+		</ul>
+		</div>
+    </header>
+
+    <section class="ui-content" role="main">
+	  	<h2>The Big Cheese</h2>
+	  	<img src="images/Unknown.jpg" alt="The Big Cheese" height="150">
+		<p>The Big Cheese weighs 60 lbs and is delicatly wrapped for premium concealment. You have a choice from white chaddar cheese or provolone.</p>
+		<p><strong>Price:</strong> $99.99</p>
+		<a href="#" data-role="button" data-icon="plus" data-theme="b" >Add to Cart</a>
+        <a href="#" data-role="button" data-icon="back" data-rel="back">Back to Previous Page</a>
+	</section>
+
+	 <footer data-role="footer" data-theme="b">
+        <h4>&copy; 2016</h4>
+    </footer>
+</div>
+
+<div data-role="page" id="products">
+    <header data-role="header" data-theme="b">
+    	<h1>The<br>Cheese Factory</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="a">Home</a></li>
+			<li><a href="#products" data-icon="star" data-theme="a" class="ui-btn-active">Products</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="a">Join Our List</a></li>
+		</ul>
+		</div>
+    </header> 
+
+    <section class="ui-content" role="main">
+		<h3>Our Product Categories</h3>	
+        <ul data-role="listview" data-inset="true">
+            <li>
+                <a href="#cheese">
+                    <h4>Cheese</h4>                   
+                </a>
+            </li>
+            <li>
+                <a href="#wine">
+                	<h4>Wine</h4>
+                </a>
+            </li>
+            <li>
+                <a href="#meat">
+                	<h4>Meat</h4>
+                </a>
+            </li>
+            <li>
+                <a href="#crackers">
+                	<h4>Crackers</h4>
+                </a>
+            </li>
+        </ul>
+    </section>
+       
+    <footer data-role="footer" data-theme="b">
+        <h4>&copy; 2016</h4>
+    </footer>
+</div>
+
+<div data-role="page" id="props">
+    <header data-role="header" data-theme="b">
+    	<h1>The<br>Cheese Factory</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="a">Home</a></li>
+			<li><a href="#products" data-icon="star" data-theme="a" class="ui-btn-active">Product List</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="a">Join Our List</a></li>
+		</ul>
+		</div>
+    </header>
+          
+    <section class="ui-content" role="main">
+		<h3>Cheese</h3>	
+        <ul data-role="listview" data-inset="true">
+            <li>
+                <a href="#cheese">
+                	<img src="images/Unknown.jpg" alt="Big Cheese" height="75">
+                    <h4>The Big Cheese</h4>                   
+                </a>
+            </li>
+            <li>
+                <a href="#cheddar">
+                	<img src="images/cheddar.jpg" alt="cheddarcheese" height="75">
+                	<h4>Cheddar Cheese</h4>
+                </a>
+            </li>
+            <li>
+                <a href="#american">
+                	<img src="images/american.jpg" alt="Amercian" height="75">
+                	<h4>Amercian Cheese</h4>
+                </a>
+            </li>
+            <li>
+                <a href="#american">
+                    <img src="images/american.jpg" alt="Amercian" height="75">
+                    <h4>Amercian Cheese</h4>
+                </a>
+            </li>
+            <li>
+                <a href="#american">
+                    <img src="images/american.jpg" alt="Amercian" height="75">
+                    <h4>Amercian Cheese</h4>
+                </a>
+            </li>
+        </ul>
+    </section>
+       
+    <footer data-role="footer" data-theme="b">
+        <h4>&copy; 2016</h4>
+    </footer>
+</div>
+
+<div data-role="page" id="contact">
+    <header data-role="header">
+        <h1>The Cheese Factory</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" data-icon="home" data-theme="b">Home</a></li>
+                <li><a href="#speakers" data-icon="star" data-theme="b">Products</a></li>
+                <li><a href="#contact" data-icon="grid" data-theme="b" class="ui-btn-active">Join Our List</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="ui-content" role="main" style="text-align:center;">
+        <strong>Phone</strong><br>
+        <a href="tel:1444-444-4444">1444-444-4444</a><br><br>
+        <strong>Mail</strong><br>
+        The West Side Cheese Factory<br>
+        P.O. Box 4444<br>
+        Sioux Falls, SD 44444-4444<br><br>
+        <strong>Email</strong><br>
+        <a href="kurtis.cheese@hotmail.com">kurtis.cheese@hotmail.com</a><br><br>
+        <div class="ui-bar">
+            <a href="#buytix" data-icon="gear" data-theme="b">Send Email</a>
+        </div>
+    </section>
+    <footer data-role="footer" data-theme="b">
+        <h4>&copy; 2016</h4>
+    </footer>
+</div>
+
+</body>
+</html>
+
+
+

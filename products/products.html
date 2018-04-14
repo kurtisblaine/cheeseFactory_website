@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Cheese Factory</title>
+	<link rel="stylesheet" href="../jquery-ui-1.11.2.custom/jquery-ui.min.css">
+	<link rel="stylesheet" href="../styles/jquery.bxslider.css">
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="../jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+	<script src="../js/jquery.bxSlider.min.js"></script>
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/summary.css">
+    <script>
+    	$(document).ready(function() {
+    		$("#print").button();
+       		$("#slider").bxSlider({
+       	  		auto: true,
+       	  		autoHover: true,
+		  		captions: true,
+		  		minSlides: 3,
+		  		maxSlides: 3,
+		  		slideWidth: 154,
+		  		slideMargin: 10
+			});    			
+     	});
+    </script>
+</head>
+
+<header>
+	<img src="../images/Unknown-1.jpeg" alt="Cheese"
+	style="width:735px; height:220px;">
+	<hgroup>
+	<h1>The Cheese Factory</h1>
+	<link rel="stylesheet", href="../styles/products.css">
+	<h5>Home of the Big Cheese</h5>
+	</hgroup>
+<nav>
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="products/index.html" class="current">Product List</a></li>
+		<li><a href="../personal/index.html">Personal</a></li>
+		<li><a href="../planning.html">Planning</a></li>
+		<li><a href="../email.html">Join Email</a></li>
+	</ul>
+</nav>
+</header>
+
+<aside>
+<h2>Categories</h2>
+<ul>
+<li><a href="../products/beef.html">Cheese</a></li>
+<li><a href="../Meat Categories/pork.html">Wine</a></li>
+<li><a href="../Meat Categories/poultry.html">Meat
+</a></li>
+<li><a href="../Meat Categories/fish.html">Crackers</a></li>
+</ul>
+<p><a id="print">Print List</a></p>
+</aside>
+
+<section>
+<table>
+	<caption>Product List</caption>
+	<thead>
+		<tr>
+		<th class="left">Category</th>
+		<th class="left">Description</th>
+		<th class="right">Price</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<th rowspan="3" class="left">Cheese</th>
+			<td class="left"><a href="../products/beef.html">The Big Cheese</a></td>
+			<td class="right">$99.99</td>
+		</tr>
+		<tr>
+			<td class="left"><a href="../products/cheddar.html">Cheddar</a></td>
+			<td class="right">$ 9.99</td>
+		</tr>
+		<tr>
+			<td class="left"><a href="../products/american.html">American
+			</a></td>
+			<td class="right">$11.99</td>
+		</tr>
+		<tr>
+			<th rowspan="3" class="left">Wine</th>
+			<td class="left"><a href="../products/pork.html">White</a></td>
+			<td class="right">$14.99</td>
+		</tr>
+		<tr>
+			<td class="left"><a href="../products/pork.html">Red</a></td>
+			<td class="right">$14.99</td>
+		</tr>
+		<tr>
+			<td class="left"><a href="../products/pork.html">Grape</a></td>
+			<td class="right">$14.99</td>
+		</tr>
+		<tr>
+			<th rowspan="3" class="left">Meat</th>
+			<td class="left"><a href="../products/poultry.html">Ham</a></td>
+			<td class="right">$19.99</td>
+		</tr>
+		<tr>
+			<td class="left"><a href="../products/poultry.html">Turkey</a></td>
+			<td class="right">$19.99</td>
+		</tr>
+		<tr>
+			<td class="left"><a href="../products/poultry.html">Roast beef</a></td>
+			<td class="right">$19.99</td>
+		</tr>
+		<tr>
+			<th rowspan="3" class="left">Crackers</th>
+			<td class="left"><a href="../Meat Categories/fish.html">Wheat</a></td>
+			<td class="right">$ 9.99</td>
+			</tr>
+			<tr>
+		<td class="left"><a href="../Meat Categories/fish.html">Graham</a></td>
+			<td class="right">$  9.99</td>
+		</tr>
+		<tr>
+		<td class="left"><a href="../Meat Categories/fish.html">Ritz</a></td>
+			<td class="right">$ 9.99</td>
+		</tr>
+	</tbody>
+
+</table>
+
+<div id="carousel">
+	  	<ul id="slider">
+	  		<li><img src="../slides/products/american.jpg" alt="" title="American Cheese"></li>
+	  		<li><img src="../slides/products/cheddar.jpg" alt="" title="Cheddar Cheese"></li>
+	  		<li><img src="../slides/products/Unknown.jpg" alt="" title="The Big Cheese"></li>
+	  		<li><img src="../slides/products/crackers.jpg" alt="" title="Wheat Crackers"></li>
+	  		<li><img src="../slides/products/meat.jpg" alt="" title="Sliced Ham"></li>
+	    </ul>
+	  </div>
+</section>
+
+
+<footer>
+<p>&copy; 2016 Kurtis Waldner</p>
+</footer>
+</html> 
